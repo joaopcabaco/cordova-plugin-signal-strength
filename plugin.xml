@@ -5,7 +5,7 @@
   <license>Apache 2.0</license>
   <keywords>cordova,signal,strength,gsm,dBa,network</keywords>
   <js-module name="signal-strength" src="www/signal-strength.js">
-    <clobbers target="signal-strength"/>
+    <clobbers target="window.signal-strength"/>
   </js-module>
   <platform name="android">
     <config-file parent="/*" target="res/xml/config.xml">
